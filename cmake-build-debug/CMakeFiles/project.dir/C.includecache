@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/project/bn.h
+
+/home/dmitry/project/test_vovka.c
+vovka.c
+/home/dmitry/project/vovka.c
+stdio.h
+-
+time.h
+-
+
+/home/dmitry/project/vovka.c
+bn.h
+/home/dmitry/project/bn.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+math.h
+-
+
